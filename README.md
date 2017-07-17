@@ -17,6 +17,7 @@ li {
 }
 </style>
 </head>
+<body>
 <h1>Hello World!</h1>
 
 <p>This is a paragraph.</p>
@@ -25,5 +26,5 @@ li {
   <li>This is</li>
   <li>A list</li>
 </ul>
-
+</body>
 </html>
