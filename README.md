@@ -26,6 +26,7 @@ li {
   <li>This is</li>
   <li>A list</li>
 </ul>
+<canvas id="canvas"></canvas>
 var sun = new Image();
 var moon = new Image();
 var earth = new Image();
