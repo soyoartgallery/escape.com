@@ -1,4 +1,5 @@
 <!-- CSS media query on a link element -->
+<html>
 <p>text</p>
 p {
   animation-duration: 3s;
@@ -40,3 +41,4 @@ li {
   <li>A list</li>
 </ul>
 
+</html>
