@@ -1,3 +1,5 @@
+<!-- CSS media query on a link element -->
+<p>text</p>
 p {
   animation-duration: 3s;
   animation-name: slidein;
