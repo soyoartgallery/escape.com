@@ -1,6 +1,7 @@
 <!-- CSS media query on a link element -->
 <html>
 <head>
+<style>
 h1 {
   color: blue;
   background-color: yellow;
@@ -14,6 +15,7 @@ p {
 li {
   text-shadow: 2px 2px 3px purple;
 }
+</style>
 </head>
 <h1>Hello World!</h1>
 
