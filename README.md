@@ -70,7 +70,7 @@ p2 {
 <h1>Hello World!</h1>
 
 <p>This is a paragraph.</p>
-<p2>ghjkgjkg</p>
+<p2>ghjkgjkg</p2>
 
 <ul>
   <li>This is</li>
