@@ -76,6 +76,6 @@ p2 {
   <li>This is</li>
   <li>A list</li>
 </ul>
-<canvas id="canvas"></canvas>
+<canvas id="canvas" width="800" height="200"></canvas>
 </body>
 </html>
