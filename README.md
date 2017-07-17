@@ -60,12 +60,17 @@ p {
 li {
   text-shadow: 2px 2px 3px purple;
 }
+p2 {
+  color: green;
+}
+
 </style>
 </head>
 <body>
 <h1>Hello World!</h1>
 
 <p>This is a paragraph.</p>
+<p2>ghjkgjkg</p>
 
 <ul>
   <li>This is</li>
