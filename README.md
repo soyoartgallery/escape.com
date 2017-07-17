@@ -1,9 +1,16 @@
-<html>
-<body>
-#테스트
-홓ㄹ노ㅗㅓ헣ㄹ노ㅎㄹㄴㅎㄹㅇㄴㅎ
-ㄹㅎㅁㅇㅎㄹㅁㅎㄹ놓ㄴ롤
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
 
-hjlhkjhlkl;;lhklhl;
-</body>
-</html>
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
