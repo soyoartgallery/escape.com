@@ -62,6 +62,9 @@ function draw() {
 }
 </script>
 <style>
+canvas { 
+border: 1px solid black;
+}
 h1 {
   color: blue;
   background-color: yellow;
