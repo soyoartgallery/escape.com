@@ -1,6 +1,7 @@
 <!-- CSS media query on a link element -->
 <html>
 <head>
+<script type="text/javascript">
 var img = new Image();
 
 // 변수
@@ -59,7 +60,7 @@ function draw() {
     // 움직임 정도
     x += dx;
 }
-
+</script>
 <style>
 h1 {
   color: blue;
