@@ -16,7 +16,7 @@ var y = -4.5; // 수직 옵셋
 
 // 주요 프로그램
 
-var dx = 1;
+var dx = 10;
 var iconW;
 var iconH;
 var imgW;
