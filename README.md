@@ -6,7 +6,7 @@ var img = new Image();
 
 // 변수
 // 스크롤될 이미지, 방향, 속도를 바꾸려면 변수값을 바꾼다.
-
+icon.src= 'https://github.com/soyoartgallery/escape.com/blob/master/IMG_1380.PNG'
 img.src = 'https://mdn.mozillademos.org/files/4553/Capitan_Meadows,_Yosemite_National_Park.jpg';
 var CanvasXSize = 800;
 var CanvasYSize = 200;
@@ -17,6 +17,8 @@ var y = -4.5; // 수직 옵셋
 // 주요 프로그램
 
 var dx = 100;
+var iconW;
+var iconH;
 var imgW;
 var imgH;
 var x = 0;
@@ -27,6 +29,8 @@ var ctx;
 img.onload = function() {
     imgW = img.width*scale;
     imgH = img.height*scale;
+    iconW = icon.width*scale;
+    iconH = icon.height*scale;
     if (imgW > CanvasXSize) { x = CanvasXSize-imgW; } // 캔버스보다 큰 이미지
     if (imgW > CanvasXSize) { clearX = imgW; } // 캔버스보다 큰 이미지
     else { clearX = CanvasXSize; }
@@ -57,6 +61,7 @@ function draw() {
     }
     // 이미지 그리기
     ctx.drawImage(img,x,y,imgW,imgH);
+    ctx.drawImage(icon,x,y,iconw,iconH);
     // 움직임 정도
     x += dx;
 }
