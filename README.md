@@ -61,7 +61,7 @@ function draw() {
     }
     // 이미지 그리기
     ctx.drawImage(img,x,y,imgW,imgH);
-    ctx.drawImage(icon,x,y,iconW,iconH);
+    //ctx.drawImage(icon,x,y,iconW,iconH);
     // 움직임 정도
     x += dx;
 }
