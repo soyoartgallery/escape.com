@@ -29,8 +29,8 @@ var ctx;
 img.onload = function() {
     imgW = img.width*scale;
     imgH = img.height*scale;
-    iconW = icon.width*scale;
-    iconH = icon.height*scale;
+   // iconW = icon.width*scale;
+   // iconH = icon.height*scale;
     if (imgW > CanvasXSize) { x = CanvasXSize-imgW; } // 캔버스보다 큰 이미지
     if (imgW > CanvasXSize) { clearX = imgW; } // 캔버스보다 큰 이미지
     else { clearX = CanvasXSize; }
