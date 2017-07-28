@@ -6,7 +6,7 @@ var img = new Image();
 
 // 변수
 // 스크롤될 이미지, 방향, 속도를 바꾸려면 변수값을 바꾼다.
-icon.src= 'https://github.com/soyoartgallery/escape.com/blob/master/IMG_1380.PNG'
+//icon.src= 'https://github.com/soyoartgallery/escape.com/blob/master/IMG_1380.PNG'
 img.src = 'https://mdn.mozillademos.org/files/4553/Capitan_Meadows,_Yosemite_National_Park.jpg';
 var CanvasXSize = 800;
 var CanvasYSize = 200;
