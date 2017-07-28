@@ -16,7 +16,7 @@ var y = -4.5; // 수직 옵셋
 
 // 주요 프로그램
 
-var dx = 10;
+var dx = 1;
 var iconW;
 var iconH;
 var imgW;
@@ -29,8 +29,8 @@ var ctx;
 img.onload = function() {
     imgW = img.width*scale;
     imgH = img.height*scale;
-   // iconW = icon.width*scale;
-   // iconH = icon.height*scale;
+    iconW = icon.width*scale;
+    iconH = icon.height*scale;
     if (imgW > CanvasXSize) { x = CanvasXSize-imgW; } // 캔버스보다 큰 이미지
     if (imgW > CanvasXSize) { clearX = imgW; } // 캔버스보다 큰 이미지
     else { clearX = CanvasXSize; }
