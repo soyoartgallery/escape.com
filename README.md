@@ -9,10 +9,10 @@ var img = new Image();
 
 img.src = 'https://mdn.mozillademos.org/files/4553/Capitan_Meadows,_Yosemite_National_Park.jpg';
 var CanvasXSize = 800;
-var CanvasYSize = 200;
-var speed = 30; // 값이 작을 수록 빨라진다
+var CanvasYSize = 800;
+var speed = 10; // 값이 작을 수록 빨라진다
 var scale = 1.05;
-var y = -4.5; // 수직 옵셋
+var y = 0; // 수직 옵셋
 
 // 주요 프로그램
 
