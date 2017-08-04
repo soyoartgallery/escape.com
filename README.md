@@ -86,7 +86,17 @@ li {
 p2 {
   color: green;
 }
-
+//
+<div>
+    <div style="position: absolute;">
+        <div style="position: relative; top: 80px; left: 100px;"><img src="1.jpg"></img></div>
+    </div>
+    <div style="position: absolute;">
+        <div style="position: relative; top: 80px; left: 120px;"><img src="2.jpg"></img></div>
+    </div>
+    <img src="3.jpg"></img>
+</div>
+//
 </style>
 </head>
 <body>
