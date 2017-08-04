@@ -89,12 +89,12 @@ p2 {
 //
 <div>
     <div style="position: absolute;">
-        <div style="position: relative; top: 80px; left: 100px;"><img src="1.jpg"></img></div>
+        <div style="position: relative; top: 80px; left: 100px;"><img src="/1380.jpg"></img></div>
     </div>
     <div style="position: absolute;">
-        <div style="position: relative; top: 80px; left: 120px;"><img src="1545.jpg"></img></div>
+        <div style="position: relative; top: 80px; left: 120px;"><img src="/1545.jpg"></img></div>
     </div>
-    <img src="1540.jpg"></img>
+    <img src="/1540.jpg"></img>
 </div>
 //
 </style>
