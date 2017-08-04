@@ -68,7 +68,7 @@ function draw() {
 </script>
 <style>
 canvas { 
-border: 1px solid black;
+border: 1px solid white;
 }
 h1 {
   color: blue;
@@ -87,6 +87,22 @@ p2 {
   color: green;
 }
 //
+//
+</style>
+</head>
+<body>
+<h1>Hello World!</h1>
+
+<p>This is a paragraph.</p>
+<p2>ghjkgjkg</p2>
+<p>ㅇㅏㅁㅜㅁㅏㄹ ㄷㅐㅈㅏㄴㅊㅣ</p>
+<ul>
+  <li>This is</li>
+  <li>A list</li>
+</ul>
+<canvas id="canvas" width="800" height="200">
+</canvas>
+
 <div>
     <div style="position: absolute;">
         <div style="position: relative; top: 80px; left: 100px;"><img src="/1380.jpg"></img></div>
@@ -96,21 +112,5 @@ p2 {
     </div>
     <img src="/1540.jpg"></img>
 </div>
-//
-</style>
-</head>
-<body>
-<h1>Hello World!</h1>
-
-<p>This is a paragraph.</p>
-<p2>ghjkgjkg</p2>
-
-<ul>
-  <li>This is</li>
-  <li>A list</li>
-</ul>
-<canvas id="canvas" width="800" height="200">
-<p>ㅇㅏㅁㅜㅁㅏㄹ ㄷㅐㅈㅏㄴㅊㅣ</p>
-</canvas>
 </body>
 </html>
